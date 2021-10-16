@@ -106,7 +106,7 @@ section {
 .storage-used { margin-bottom: 1.125rem; }
 
 /* ------------------------ Meter ----------------------- */
-[role="meter"] {
+.meter {
     position: relative;
     height: 1.125rem;
     border: 2px solid transparent;
@@ -182,6 +182,7 @@ section {
         display: flex;
         align-items: flex-end;
         width: min(100%, 59.375rem);
+        margin-bottom: 1.375rem;
     }
 
     .title-section { flex: 1; }

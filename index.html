@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Frontend Mentor | Fylo Data Storage Component</title>
+
+  </head>
+
+  <body>
+
+    <main>
+
+      <!-- --------------------------------------------------- -->
+      <!--                    Title Section                    -->
+      <!-- --------------------------------------------------- -->
+      <section class="title-section">
+
+        <h1 class="title">
+          <img src="images/logo.svg" alt="Fylo">
+        </h1>
+
+        <button class="btn" type="button">
+          <img class="icon" src="images/icon-document.svg" alt="Document">
+        </button>
+        <button class="btn" type="button">
+          <img class="icon" src="images/icon-folder.svg" alt="Folder">
+        </button>
+        <button class="btn" type="button">
+          <img class="icon" src="images/icon-upload.svg" alt="Upload">
+        </button>
+
+      </section>
+
+      <!-- --------------------------------------------------- -->
+      <!--                   Storage Section                   -->
+      <!-- --------------------------------------------------- -->
+      <section class="storage-section">
+
+        <h2 class="sr-only">Storage</h2>
+
+        <p class="storage-used">You’ve used <strong class="storage-used-value" id="storage-used">0 GB</strong> of your storage</p>
+
+        <div role="meter"
+             aria-valuemin="0"
+             aria-labelledby="storage-used">
+             <div class="fill" aria-hidden="true"></div>
+        </div>
+
+        <p class="storage-remaining"><strong class="storage-remaining-value">0</strong> GB Left</p>
+
+      </section>
+
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+
+</html>

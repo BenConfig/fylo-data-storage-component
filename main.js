@@ -1,5 +1,5 @@
 // Get HTML elements
-const METER = document.querySelector('[role="meter"]');
+const METER = document.querySelector('.meter');
 const FILL = document.querySelector('.fill');
 const STORAGE_USED_DISPLAY = document.querySelector('.storage-used-value');
 const STORAGE_REMAINING_DISPLAY = document.querySelector('.storage-remaining-value');
